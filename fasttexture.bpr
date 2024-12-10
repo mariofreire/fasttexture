@@ -1,0 +1,163 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.06.00"/>
+    <PROJECT value="fasttexture.exe"/>
+    <OBJFILES value="fasttexture.obj main.obj childwin.obj about.obj newdlg.obj zlib.obj 
+      editunit.obj newtileunit.obj textunit.obj progressunit.obj bgcolorunit.obj 
+      brightnessdlg.obj infodlg.obj"/>
+    <RESFILES value="fasttexture.res toolcursor.res"/>
+    <IDLFILES value=""/>
+    <IDLGENFILES value=""/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES) main.dfm childwin.dfm about.dfm newdlg.dfm editunit.dfm 
+      newtileunit.dfm textunit.dfm progressunit.dfm bgcolorunit.dfm 
+      brightnessdlg.dfm infodlg.dfm"/>
+    <LIBFILES value=""/>
+    <LIBRARIES value="bdertl.lib dbrtl.lib inet.lib xmlrtl.lib vclx.lib GR32_CB6.lib dclusr.lib 
+      vcl.lib rtl.lib"/>
+    <SPARELIBS value="rtl.lib vcl.lib dclusr.lib GR32_CB6.lib vclx.lib xmlrtl.lib inet.lib 
+      dbrtl.lib bdertl.lib"/>
+    <PACKAGES value="rtl.bpi vcl.bpi vclx.bpi"/>
+    <PATHCPP value=".;"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value=""/>
+    <SYSDEFINES value="NO_STRICT;_RTLDLL"/>
+    <MAINSOURCE value="fasttexture.cpp"/>
+    <INCLUDEPATH value="&quot;C:\Program Files (x86)\Borland\CBuilder6\Projects&quot;;C:\Components\Graphics32_BCB6;$(BCB)\include;$(BCB)\include\vcl;C:\Components\pngimage"/>
+    <LIBPATH value="&quot;C:\Program Files (x86)\Borland\CBuilder6\Projects&quot;;&quot;c:\program files (x86)\borland\cbuilder6\lib\debug&quot;;C:\Components\Graphics32_BCB6;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;C:\Components\pngimage;C:\Components\pngimage\obj"/>
+    <WARNINGS value="-w-par"/>
+    <OTHERFILES value=""/>
+  </MACROS>
+  <OPTIONS>
+    <IDLCFLAGS value="-I&quot;C:\Program Files (x86)\Borland\CBuilder6\Projects&quot; 
+      -IC:\Components\Graphics32_BCB6 -I$(BCB)\include -I$(BCB)\include\vcl 
+      -IC:\Components\pngimage -src_suffix cpp"/>
+    <CFLAG1 value="-Od -H=$(BCB)\lib\vcl60.csm -Hc -w- -Vx -Ve -X- -r- -a8 -b- -k -y -v -vi- 
+      -c -tW -tWM"/>
+    <PFLAGS value="-$YD -$W -$O- -$A8 -v -JPHNE -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zd"/>
+    <LFLAGS value="-D&quot;&quot; -aa -Tpe -x -Gn -v"/>
+    <OTHERFILES value=""/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0w32.obj Memmgr.Lib sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mti.lib"/>
+    <OTHERFILES value=""/>
+  </LINKER>
+  <FILELIST>
+      <FILE FILENAME="fasttexture.cpp" FORMNAME="" UNITNAME="fasttexture" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="main.cpp" FORMNAME="MainForm" UNITNAME="Main" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="childwin.cpp" FORMNAME="MDIChild" UNITNAME="ChildWin" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="fasttexture.res" FORMNAME="" UNITNAME="fasttexture.res" CONTAINERID="ResTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="about.cpp" FORMNAME="AboutBox" UNITNAME="about" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="newdlg.cpp" FORMNAME="NewTextureDlg" UNITNAME="newdlg" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="zlib.cpp" FORMNAME="" UNITNAME="zlib" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="editunit.cpp" FORMNAME="EditForm" UNITNAME="editunit" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="newtileunit.cpp" FORMNAME="NewTileDlg" UNITNAME="newtileunit" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="toolcursor.res" FORMNAME="" UNITNAME="toolcursor.res" CONTAINERID="ResTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="textunit.cpp" FORMNAME="TextDlg" UNITNAME="textunit" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="progressunit.cpp" FORMNAME="ProgressForm" UNITNAME="progressunit" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="bgcolorunit.cpp" FORMNAME="BGColorDlg" UNITNAME="bgcolorunit" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="brightnessdlg.cpp" FORMNAME="BDlg" UNITNAME="brightnessdlg" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="infodlg.cpp" FORMNAME="TextureInfoDlg" UNITNAME="infodlg" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+  </FILELIST>
+  <BUILDTOOLS>
+  </BUILDTOOLS>
+
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=1
+AutoIncBuild=0
+MajorVer=1
+MinorVer=0
+Release=0
+Build=0
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=1033
+CodePage=1252
+
+[Version Info Keys]
+CompanyName=DSP Interactive
+FileDescription=Fast Engine Texture Editor
+FileVersion=1.0.0.0
+InternalName=fasttexture
+LegalCopyright=Copyright (C) 2016 DSP Interactive.
+LegalTrademarks=Trademarks (TM) 2016 DSP Interactive.
+OriginalFilename=fasttexture.exe
+ProductName=Fast Engine Texture Editor
+ProductVersion=1.0.0.0
+Comments=Texture Editor
+
+[Excluded Packages]
+c:\program files (x86)\borland\cbuilder6\Bin\dclite60.bpl=Borland Integrated Translation Environment
+
+[HistoryLists\hlIncludePath]
+Count=10
+Item0=C:\Components\Graphics32_BCB6;$(BCB)\include;$(BCB)\include\vcl;C:\Components\pngimage
+Item1=c:\components\fastcontrols;..\testimgvw32-1;C:\Components\Graphics32;..\testcolor002;C:\sadsf950;$(BCB)\include;$(BCB)\include\vcl;C:\Components\pngimage
+Item2=..\testimgvw32-1;C:\Components\Graphics32;..\testcolor002;C:\sadsf950;$(BCB)\include;$(BCB)\include\vcl;C:\Components\pngimage
+Item3=C:\Components\Graphics32;..\testcolor002;C:\sadsf950;$(BCB)\include;$(BCB)\include\vcl;C:\Components\pngimage
+Item4=$(BCB)\include;$(BCB)\include\vcl;C:\Components\pngimage
+Item5=$(BCB)\include;$(BCB)\include\vcl;C:\Downloads\zlib123-dll\include;C:\Components\pngimage
+Item6=$(BCB)\include;$(BCB)\include\vcl;C:\Downloads\zlib123-dll\include;C:\Downloads\pngimage
+Item7=$(BCB)\include;$(BCB)\include\vcl;C:\Downloads\zlib123-dll\include
+Item8=$(BCB)\include;$(BCB)\include\vcl;C:\Downloads\DelphiZLib.123
+Item9=$(BCB)\include;$(BCB)\include\vcl
+
+[HistoryLists\hlLibraryPath]
+Count=11
+Item0=c:\program files (x86)\borland\cbuilder6\lib\debug;C:\Components\Graphics32_BCB6;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;C:\Components\pngimage;C:\Components\pngimage\obj
+Item1=c:\program files (x86)\borland\cbuilder6\lib\debug;c:\components\fastcontrols;..\testimgvw32-1;C:\Components\Graphics32;..\testcolor002;C:\sadsf950;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;C:\Components\pngimage;C:\Components\pngimage\obj
+Item2=..\testimgvw32-1;C:\Components\Graphics32;..\testcolor002;C:\sadsf950;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;C:\Components\pngimage;C:\Components\pngimage\obj
+Item3=C:\Components\Graphics32;..\testcolor002;C:\sadsf950;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;C:\Components\pngimage;C:\Components\pngimage\obj
+Item4=$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;C:\Components\pngimage;C:\Components\pngimage\obj
+Item5=$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;C:\Downloads\zlib123-dll\lib;C:\Components\pngimage;C:\Components\pngimage\obj
+Item6=$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;C:\Downloads\zlib123-dll\lib;C:\Downloads\pngimage;C:\Downloads\pngimage\obj
+Item7=$(BCB)\lib\obj;$(BCB)\lib;C:\Downloads\zlib123-dll\lib;C:\Downloads\pngimage;C:\Downloads\pngimage\obj
+Item8=$(BCB)\lib\obj;$(BCB)\lib;C:\Downloads\zlib123-dll\lib
+Item9=$(BCB)\lib\obj;$(BCB)\lib;C:\Downloads\DelphiZLib.123
+Item10=$(BCB)\lib\obj;$(BCB)\lib
+
+[HistoryLists\hlDebugSourcePath]
+Count=1
+Item0=$(BCB)\source\vcl
+
+[Debugging]
+DebugSourceDirs=$(BCB)\source\vcl
+
+[Parameters]
+RunParams=
+Launcher=
+UseLauncher=0
+DebugCWD=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteLauncher=
+RemoteCWD=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=0
+LinkCGLIB=0
+
+[CORBA]
+AddServerUnit=1
+AddClientUnit=1
+PrecompiledHeaders=1
+  </IDEOPTIONS>
+</PROJECT>
